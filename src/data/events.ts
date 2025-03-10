@@ -5,7 +5,7 @@ export const tedxEvents = [
       monthYear: "April 2025",
       title: "TEDx MLRIT 2025",
       theme: "Echoes Of Tomorrow",
-      link: "https://example.com/tedx2025", // Add actual link
+      link: "https://www.ted.com/tedx/events/59989", // Add actual link
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const tedxEvents = [
       monthYear: "August 2018",
       title: "TEDx MLRIT 2018",
       theme: "One Step Closer",
-      link: "https://example.com/tedx2018",
+      link: "https://www.ted.com/tedx/events/29559",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const tedxEvents = [
       monthYear: "April 2017",
       title: "TEDx MLRIT 2017",
       theme: "Wander To Wonder",
-      link: "https://example.com/tedx2017",
+      link: "https://www.ted.com/tedx/events/22143",
     },
   ];
   
