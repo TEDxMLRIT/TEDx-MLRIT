@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.parallax { background-attachment: fixed; }
+.speaker-card:hover img { transform: scale(1.05); }
+.sponsor-logo { filter: grayscale(100%); transition: filter 0.3s; }
+.sponsor-logo:hover { filter: grayscale(0%); }
