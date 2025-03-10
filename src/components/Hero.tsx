@@ -1,3 +1,4 @@
+import { config } from "@/data/config";
 
 export default function Hero() {
     return (
@@ -18,15 +19,15 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="fixed right-6 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 z-20">
-                    <a href="#"
+                    <a href={config.YT_LINK}
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
-                        <i className="ri-facebook-fill text-white"></i>
+                        <i className="ri-youtube-fill text-white"></i>
                     </a>
-                    <a href="#"
+                    <a href={config.X_LINK}
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
-                        <i className="ri-twitter-fill text-white"></i>
+                        <i className="ri-twitter-x-fill text-white"></i>
                     </a>
-                    <a href="#"
+                    <a href={config.IG_LINK}
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
                         <i className="ri-instagram-fill text-white"></i>
                     </a>

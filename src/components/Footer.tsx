@@ -1,3 +1,4 @@
+import { config } from "@/data/config";
 
 export default function Footer() {
   return (
@@ -15,12 +16,12 @@ export default function Footer() {
             <div className="text-center">
               <h3 className="text-xl font-bold mb-6">Connect With Us</h3>
               <div className="flex justify-center items-center space-x-6 mb-6">
-                <a href="https://instagram.com/tedxmlrit"
+                <a href={config.IG_LINK}
                   className="hover:text-[#E50914] text-2xl flex items-center gap-2">
                   <i className="ri-instagram-fill"></i>
                   <span className="text-base">@tedxmlrit</span>
                 </a>
-                <a href="https://youtube.com/@TEDxMLRIT"
+                <a href={config.YT_LINK}
                   className="hover:text-[#E50914] text-2xl flex items-center gap-2">
                   <i className="ri-youtube-fill"></i>
                   <span className="text-base">@TEDxMLRIT</span>
@@ -28,8 +29,8 @@ export default function Footer() {
               </div>
               <div>
                 <h4 className="font-bold mb-2">Contact Us</h4>
-                <p className="mb-2">Email: info@tedxmlrit.com</p>
-                <p>Phone: +91 123 456 7890</p>
+                <p className="mb-2">Email: {config.EMAIL}</p>
+                <p>Phone: {config.PHONE}</p>
               </div>
             </div>
             <div className="text-center md:text-right">
