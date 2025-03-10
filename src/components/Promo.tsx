@@ -23,7 +23,7 @@ export default function Promo() {
                 <div className="container mx-auto px-6">
                     <div className="relative w-full h-[600px] rounded-lg overflow-hidden group cursor-pointer">
                         <video
-                            src="https://upcdn.io/FW25c5x/raw/landing/Intro.mp4"
+                            src="public/promo.mp4"
                             className="w-full h-full object-cover"
                             autoPlay={true}
                             muted={true}
