@@ -5,7 +5,7 @@ export const team : MemberProps[] = [
     {
       name: "Shreeya Pawar",
       title: "Organiser",
-      image: "/public/TeamPics/Shreeya.JPG",
+      image: "/public/TeamPics/Shreeya.JP",
     },
     {
       name: "Mohd Raza",
