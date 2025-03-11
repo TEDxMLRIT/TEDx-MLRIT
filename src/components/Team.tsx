@@ -1,6 +1,27 @@
 import { hometeam } from "@/data/team";
 import { Link } from "react-router";
 import { MemberCard } from "./MemberCard";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 7
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 2
+  }
+};
 
 export default function Team() {
   return (
@@ -9,11 +30,23 @@ export default function Team() {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">Our Team</h2>
           <div className="overflow-x-auto relative">
-            <div id="speakersContainer" className="flex space-x-6 pb-8 transition-transform duration-300">
+            <Carousel responsive={responsive} swipeable={true}
+                        draggable={true}
+                        showDots={false}
+                        ssr={false} // means to render carousel on server-side.
+                        infinite={true}
+                        autoPlay={true}
+                        autoPlaySpeed={2000}
+                        keyBoardControl={true}
+                        customTransition="all .5"
+                        transitionDuration={100}
+                        containerClass="carousel-container"
+                        removeArrowOnDeviceType={["tablet", "mobile"]}
+                        itemClass="carousel-item-padding-40-px p-2">
               {hometeam.map((speaker, index) => (
                 <MemberCard key={index} name={speaker.name} title={speaker.title} image={speaker.image} />
               ))}
-            </div>
+            </Carousel>
           </div>
         </div>
         <div className="text-center mt-12">
