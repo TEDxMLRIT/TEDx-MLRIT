@@ -5,27 +5,27 @@ export const team : MemberProps[] = [
     {
       name: "Shreeya Pawar",
       title: "Organiser",
-      image: "/public/TeamPics/Shreeya.JPG",
+      image: "/TeamPics/Shreeya.JPG",
     },
     {
       name: "Mohd Raza",
       title: "Co-Organiser",
-      image: "/public/TeamPics/Raza.JPG",
+      image: "/TeamPics/Raza.JPG",
     },
     {
       name: "Aditya Gupta",
       title: "Curator",
-      image: "/public/TeamPics/Aditya.JPG",
+      image: "/TeamPics/Aditya.JPG",
     },
     {
       name: "Molishaa",
       title: "Executive Producer",
-      image: "./public/TeamPics/Molishaa.JPG",
+      image: "/TeamPics/Molishaa.JPG",
     },
     {
       name: "Vinay",
       title: "Event Manager",
-      image: "public/TeamPics/Vinay.JPG",
+      image: "/TeamPics/Vinay.JPG",
     },
     {
       name: "Vishruth",
@@ -45,7 +45,7 @@ export const team : MemberProps[] = [
     {
       name: "Kushwant KR",
       title: "Website Manager",
-      image: "public/TeamPics/Kush.JPG",
+      image: "/TeamPics/Kush.JPG",
     },
     {
       name: "Mohd Raza",
@@ -88,12 +88,12 @@ export const team : MemberProps[] = [
     {
       name: "Shreeya Pawar",
       title: "Organiser",
-      image: "public/TeamPics/Shreeya.JPG",
+      image: "/TeamPics/Shreeya.JPG",
     },
     {
       name: "Mohd Raza",
       title: "Co-Organiser",
-      image: "public/TeamPics/Raza.JPG",
+      image: "/TeamPics/Raza.JPG",
     },
     {
       name: "Aditya Gupta",
@@ -103,12 +103,12 @@ export const team : MemberProps[] = [
     {
       name: "Molishaa",
       title: "Executive Producer",
-      image: "public/TeamPics/Molishaa.JPG",
+      image: "/TeamPics/Molishaa.JPG",
     },
     {
       name: "Vinay",
       title: "Event Manager",
-      image: "public/TeamPics/Vinay.JPG",
+      image: "/TeamPics/Vinay.JPG",
     },
     {
       name: "Vishruth",
