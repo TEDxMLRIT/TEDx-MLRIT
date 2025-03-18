@@ -14,7 +14,7 @@ export default function Sponsors() {
                     </div>
                     <div className="overflow-x-auto relative">
                         <div id="sponsorsContainer" className="grid grid-cols-2 md:grid-cols-4 gap-4 space-x-6 pb-8 transition-transform duration-300">
-                            {sponsors.map((sponsor, index) => (
+                            {sponsors.map((sponsor) => (
                                 <div
                                     key={sponsor.id}
                                     className="p-6 bg-black rounded-lg hover:bg-[#E50914]/10 transition-colors cursor-pointer border border-white/10 w-72"

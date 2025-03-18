@@ -5,7 +5,6 @@ import Events from "./../components/Events"
 import Hero from "./../components/Hero"
 import Promo from "./../components/Promo"
 import Speakers from "./../components/Speakers"
-import Sponsors from "./../components/Sponsors"
 import Team from "./../components/Team"
 import { useEffect } from "react"
 

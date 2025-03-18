@@ -1,5 +1,4 @@
 import { hometeam } from "@/data/team";
-import { Link } from "react-router";
 import { MemberCard } from "./MemberCard";
 import Carousel from "react-multi-carousel";
 
