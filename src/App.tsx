@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router"
 import Home from "./pages/Home"
 import Teams from "./pages/Teams"
 import Ticket from "./pages/Ticket"
+import Sponsors from "./pages/Sponsors"
 
 function App() {
 
@@ -17,8 +18,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blogs />} />
           <Route path="/speakers" element={<Speakers />} />
+          <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/team" element={<Teams />} />
           <Route path="/register" element={<Ticket />} />
+          <Route path="/newsponsor" element={<Ticket />} />
+          <Route path="/newspeaker" element={<Ticket />} />
         </Routes>
       </BrowserRouter>
       <Footer />

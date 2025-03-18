@@ -39,7 +39,7 @@ export default function Home() {
             <Promo />
             <Team />
             <Blogs />
-            <Sponsors />
+            {/* <Sponsors /> */}
         </>
     )
 }

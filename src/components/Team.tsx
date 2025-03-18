@@ -50,10 +50,10 @@ export default function Team() {
           </div>
         </div>
         <div className="text-center mt-12">
-          <Link to={"/team"}
+          <a href={"/team"}
             className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
             Meet Full Team
-          </Link>
+          </a>
         </div>
 
       </section>

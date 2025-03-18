@@ -61,14 +61,14 @@ export default function Speakers() {
             </button>
           </div>
           <div className="text-center mt-12 inline-flex gap-2 justify-center w-full">
-            <button
+            <a href="/speakers"
               className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
               View All Speakers
-            </button>
-            <button
+            </a>
+            <a href="/newspeaker"
               className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
               Become a Speaker
-            </button>
+            </a>
           </div>
         </div>
       </section>
