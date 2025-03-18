@@ -5,6 +5,7 @@ import Speakers from "./pages/Speakers"
 import { BrowserRouter, Route, Routes } from "react-router"
 import Home from "./pages/Home"
 import Teams from "./pages/Teams"
+import Ticket from "./pages/Ticket"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/blog" element={<Blogs />} />
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/team" element={<Teams />} />
+          <Route path="/register" element={<Ticket />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,4 +1,5 @@
 import { config } from "@/data/config";
+import { Link } from "react-router";
 
 export default function Hero() {
     return (
@@ -12,10 +13,10 @@ export default function Hero() {
                         <p className="text-xl mb-8">Every idea leaves a mark. Every voice shapes what’s next. Be part of a journey
                             that explores the future through bold ideas and fresh perspectives.</p>
                         <p className="text-2xl font-bold mb-8">THEME: Echoes Of Tomorrow</p>
-                        <button
+                        <Link to={"/register"}
                             className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors text-lg whitespace-nowrap mt-4">
                             Purchase Tickets
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="fixed right-6 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 z-20">

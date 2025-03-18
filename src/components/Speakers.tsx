@@ -60,10 +60,14 @@ export default function Speakers() {
               <i className="ri-arrow-right-s-line text-2xl"></i>
             </button>
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 inline-flex gap-2 justify-center w-full">
             <button
               className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
               View All Speakers
+            </button>
+            <button
+              className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
+              Become a Speaker
             </button>
           </div>
         </div>
