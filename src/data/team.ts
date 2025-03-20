@@ -50,7 +50,7 @@ export const team : MemberProps[] = [
     {
       name: "Shashank",
       title: "Designer",
-      image: "/TeamPics/shashank.JPG",
+      image: "/TeamPics/Shashank.JPG",
     },
     {
       name: "Haneesh",
@@ -60,7 +60,7 @@ export const team : MemberProps[] = [
     {
       name: "Praneeth Pothnak",
       title: "Sponsorship & Budget Manager",
-      image: "/TeamPics/praneeth.JPG",
+      image: "/TeamPics/Praneeth.JPG",
     },
     {
       name: "Harish Badhey",
@@ -120,12 +120,12 @@ export const team : MemberProps[] = [
     {
       name: "Moiz",
       title: "Curator",
-      image: "/TeamPics/moiz.JPG",
+      image: "/TeamPics/Moiz.JPG",
     },
     {
       name: "Pavani",
       title: "Designer",
-      image: "/TeamPics/pavani.JPG",
+      image: "/TeamPics/Pavani.JPG",
     },
     {
       name: "Shreya",
