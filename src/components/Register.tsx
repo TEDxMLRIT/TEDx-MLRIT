@@ -54,15 +54,6 @@ export function RegisterForm({
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="name">Sub Section</Label>
-                <Input
-                  id="subsection"
-                  type="text"
-                  placeholder=""
-                  required
-                />
-              </div>
-              <div className="grid gap-2">
                 <Label htmlFor="name">College</Label>
                 <Select onValueChange={(value) => setCollege(value)}>
                   <SelectTrigger className="w-full">
