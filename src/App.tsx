@@ -7,6 +7,7 @@ import Home from "./pages/Home"
 import Teams from "./pages/Teams"
 import Ticket from "./pages/Ticket"
 import Sponsors from "./pages/Sponsors"
+import { Toaster } from "./components/ui/sonner"
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/newspeaker" element={<Ticket />} />
         </Routes>
       </BrowserRouter>
+      <Toaster />
       <Footer />
     </>
   )
