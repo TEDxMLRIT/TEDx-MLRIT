@@ -24,10 +24,6 @@ export default function Hero() {
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
                         <i className="ri-youtube-fill text-white"></i>
                     </a>
-                    <a href={config.X_LINK}
-                        className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
-                        <i className="ri-twitter-x-fill text-white"></i>
-                    </a>
                     <a href={config.IG_LINK}
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
                         <i className="ri-instagram-fill text-white"></i>
