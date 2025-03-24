@@ -40,7 +40,7 @@ export const team : MemberProps[] = [
     {
       name: "Akhil",
       title: "Video and Production Lead",
-      image: "https://public.readdy.ai/ai/img_res/081f4d843a67dc5ce657eed05d133d73.jpg",
+      image: "TeamPics/AkhilN.jpg",
     },
     {
       name: "Kushwant KR",

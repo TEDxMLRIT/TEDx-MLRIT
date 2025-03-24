@@ -6,7 +6,7 @@ export const speakers: Speaker[] = [
     name: "Dr. Alexander Mitchell",
     title: "Innovation Director at Future Labs",
     description: "Leading expert in artificial intelligence and its impact on future societies.",
-    image: "https://public.readdy.ai/ai/img_res/3ca272685bc122c9e93710715ccf148c.jpg"
+    image: "Sponsors/Sponsors.svg"
   },
   {
     name: "Dr. Emily Chen",

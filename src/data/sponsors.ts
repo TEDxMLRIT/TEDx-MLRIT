@@ -3,7 +3,7 @@ import { Sponsor } from "./types";
 export const sponsors: Sponsor[] = [
     {
       id: 1,
-      imageUrl: "https://public.readdy.ai/ai/img_res/fc797d23846699f2bc176507cef281ae.jpg",
+      imageUrl: "Sponsors/Sponsors.svg",
       altText: "Sponsor 1",
     },
     {

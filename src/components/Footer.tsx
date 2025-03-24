@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="text-center md:text-left">
               <img src="https://static.readdy.ai/image/a696ab19619978717fdfb934fe9d06a8/ae5b39aba11747580e8242bc8edbc1f1.png"
                 alt="TEDx Logo" className="h-16 mb-6 mx-auto md:mx-0" />
-              <p className="text-gray-400">TEDxMLRIT is a stage where visionaries, innovators, and changemakers unite
+              <p className="text-gray-400">TEDxMLRIT is a stage where visionaries, innovators, and change makers unite
                 to challenge perspectives and spark conversations. Independently organized under the TED banner,
                 we bring ideas that shape the future to the forefront.</p>
             </div>
