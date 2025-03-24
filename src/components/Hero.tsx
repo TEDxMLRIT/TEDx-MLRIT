@@ -20,11 +20,11 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="fixed right-6 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 z-20">
-                    <a href={config.YT_LINK}
+                    <a href={config.YT_LINK} target="_blank"
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
                         <i className="ri-youtube-fill text-white"></i>
                     </a>
-                    <a href={config.IG_LINK}
+                    <a href={config.IG_LINK} target="_blank"
                         className="w-10 h-10 bg-white/10 hover:bg-white/20 !rounded-full flex items-center justify-center backdrop-blur-sm">
                         <i className="ri-instagram-fill text-white"></i>
                     </a>
