@@ -30,7 +30,7 @@ export const team : MemberProps[] = [
     {
       name: "Vishruth",
       title: "Sponsorship and Budget Manager",
-      image: "/TeamPics/Vishruth.JPG",
+      image: "/TeamPics/Vishruth.jpg",
     },
     {
       name: "Durga",
