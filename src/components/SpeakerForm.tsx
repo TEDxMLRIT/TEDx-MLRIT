@@ -7,20 +7,23 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { useState } from "react"
 import { supabase } from "@/data/supabase"
 import { toast } from "sonner"
+import { Textarea } from "./ui/textarea"
 
-export function RegisterForm({
+export function SpeakerForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
   const [data, setData] = useState({
-    name:"",
-    email:"",
-    phone:"",
-    college:"",
-    year:"",
-    department:"",
-    section:"",
-    rollNumber:""
+    name: "",
+    email: "",
+    phone: "",
+    nominee: "",
+    talk_title: "",
+    idea_brief: "",
+    idea_worth: "",
+    bio: "",
+    link: "",
+    consent: "",
   })
   const [college, setCollege] = useState("");
   const [collegeName, setCollegeName] = useState("");
@@ -28,17 +31,17 @@ export function RegisterForm({
 
   const onSubmit = async () => {
     try {
-      let formData = {...data};
-      console.log({data,college})
-      if(college === "MLRIT")
-        formData.college = "MLRIT";
+      let formData = { ...data };
+      console.log({ data, college })
+      if (college === "MYSELF")
+        formData.nominee = "MYSELF";
       else
-        formData.college = collegeName;
+        formData.nominee = collegeName;
       const { error } = await supabase
-      .from('registrations')
-      .insert(formData)
-      .select();
-      if(error === null){
+        .from('speakers')
+        .insert(formData)
+        .select();
+      if (error === null) {
         toast("Registered Successfully!");
         navigate("/");
         return;
@@ -50,8 +53,8 @@ export function RegisterForm({
     toast("Something Went Wrong!")
   }
 
-  const onChange = (e : React.ChangeEvent<HTMLInputElement>) => {
-    setData({...data,[e.target.name]:e.target.value});
+  const onChange = (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) => {
+    setData({ ...data, [e.target.name]: e.target.value });
   }
 
   return (
@@ -61,7 +64,7 @@ export function RegisterForm({
           <div className="p-6 md:p-8">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col items-center text-center">
-                <h1 className="text-2xl font-bold">Register Now</h1>
+                <h1 className="text-2xl font-bold">Become a Speaker</h1>
                 <p className="text-balance text-muted-foreground">
                   Get your tickets now!
                 </p>
@@ -97,62 +100,20 @@ export function RegisterForm({
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="name">College</Label>
+                <Label htmlFor="name">Are you nominating yourself / someone else?</Label>
                 <Select onValueChange={(value) => setCollege(value)}>
                   <SelectTrigger className="w-full">
-                    <SelectValue placeholder="Select College" />
+                    <SelectValue placeholder="Select Option" />
                   </SelectTrigger>
                   <SelectContent className="bg-white">
-                    <SelectItem value="MLRIT">MLRIT</SelectItem>
+                    <SelectItem value="MYSELF">Myself</SelectItem>
                     <SelectItem value="OTHERS">Others</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
-              {college === "MLRIT" && <>
-                <div className="grid gap-2">
-                  <Label htmlFor="name">Year</Label>
-                  <Input
-                    name="year"
-                    type="text"
-                    placeholder="1"
-                    required
-                    onChange={onChange}
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <Label htmlFor="name">Department</Label>
-                  <Input
-                    name="department"
-                    type="text"
-                    placeholder="Computer Science"
-                    required
-                    onChange={onChange}
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <Label htmlFor="name">Section</Label>
-                  <Input
-                    name="section"
-                    type="text"
-                    placeholder="A"
-                    required
-                    onChange={onChange}
-                  />
-                </div>
-                <div className="grid gap-2">
-                  <Label htmlFor="name">Roll Number</Label>
-                  <Input
-                    name="rollNumber"
-                    type="text"
-                    placeholder=""
-                    required
-                    onChange={onChange}
-                  />
-                </div>
-              </>}
               {college === "OTHERS" && <>
                 <div className="grid gap-2">
-                  <Label htmlFor="name">College Name</Label>
+                  <Label htmlFor="name">Other</Label>
                   <Input
                     id="college"
                     type="text"
@@ -162,6 +123,60 @@ export function RegisterForm({
                   />
                 </div>
               </>}
+              <div className="grid gap-2">
+                <Label htmlFor="name">Proposed Talk Title</Label>
+                <Input
+                  type="text"
+                  required
+                  name="talk_title"
+                  onChange={onChange}
+                />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Brief description of the idea</Label>
+                <Textarea // Textarea
+                  required
+                  name="idea_brief"
+                  onChange={onChange}
+                />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Why is this idea worth spreading?</Label>
+                <Textarea // Textarea
+                  name="idea_worth"
+                  required
+                  onChange={onChange}
+                />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Brief Bio (Background, Expertise, Achievements, etc.)</Label>
+                <Textarea // Textarea
+                  name="bio"
+                  required
+                  onChange={onChange}
+                />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Link to previous talks / videos</Label>
+                <Input
+                  type="text"
+                  name="link"
+                  required
+                  onChange={onChange}
+                />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="consent">Do you agree to follow TEDx content guidelines?</Label>
+                <Select onValueChange={(value) => setData({...data,'consent':value})}>
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Select Option" />
+                  </SelectTrigger>
+                  <SelectContent className="bg-white">
+                    <SelectItem value="YES">Yes</SelectItem>
+                    <SelectItem value="NO">No</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
               <button onClick={() => onSubmit()} type="button"
                 className="bg-[#E50914] text-white px-8 py-3 rounded-2xl text-center  hover:bg-[#E50914]/90 transition-colors text-lg whitespace-nowrap mt-4">
                 Register Now

@@ -319,7 +319,7 @@ export const team : MemberProps[] = [
     {
       name: "Vishruth",
       title: "Sponsorship and Budget Manager",
-      image: "https://public.readdy.ai/ai/img_res/e626815941e82ce283ce9a6e9fb0c9ab.jpg",
+      image: "/TeamPics/Vishruth.jpg",
     },
     {
       name: "Durga",
@@ -329,7 +329,7 @@ export const team : MemberProps[] = [
     {
       name: "Akhil",
       title: "Video and Production Lead",
-      image: "https://public.readdy.ai/ai/img_res/081f4d843a67dc5ce657eed05d133d73.jpg",
+      image: "/TeamPics/AkhilN.jpg",
     },
   ];
   

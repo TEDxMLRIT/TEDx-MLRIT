@@ -4,10 +4,10 @@ export default function Header() {
         <>
             <header className="fixed w-full z-50 bg-black/90 backdrop-blur-sm">
                 <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
-                    <div className="flex items-center">
+                    <a className="flex items-center" href="/">
                         <img src="https://static.readdy.ai/image/a696ab19619978717fdfb934fe9d06a8/ae5b39aba11747580e8242bc8edbc1f1.png"
                             alt="TEDx Logo" className="h-16" />
-                    </div>
+                    </a>
                     <div className="hidden md:flex items-center space-x-8">
                         <a href="/" className="text-white hover:text-[#E50914] transition-colors">Home</a>
                         <a href="/#about" className="text-white hover:text-[#E50914] transition-colors">About</a>

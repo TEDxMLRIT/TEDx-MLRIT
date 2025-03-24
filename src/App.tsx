@@ -8,6 +8,8 @@ import Teams from "./pages/Teams"
 import Ticket from "./pages/Ticket"
 import Sponsors from "./pages/Sponsors"
 import { Toaster } from "./components/ui/sonner"
+import NewSponsor from "./pages/NewSponsor"
+import NewSpeaker from "./pages/NewSpeaker"
 
 function App() {
 
@@ -22,8 +24,8 @@ function App() {
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/team" element={<Teams />} />
           <Route path="/register" element={<Ticket />} />
-          <Route path="/newsponsor" element={<Ticket />} />
-          <Route path="/newspeaker" element={<Ticket />} />
+          <Route path="/newsponsor" element={<NewSponsor />} />
+          <Route path="/newspeaker" element={<NewSpeaker />} />
         </Routes>
       </BrowserRouter>
       <Toaster />
