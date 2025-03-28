@@ -2,7 +2,7 @@ import { MemberProps } from "@/data/types";
 
 export const MemberCard: React.FC<MemberProps> = ({ name, title, image }) => {
     return (
-        <div className="flex-none w-72">
+        <div className="flex-none w-72 mx-auto">
             <div className="relative overflow-hidden rounded-lg mb-4">
                 <img src={image} alt={name} className="w-full h-96 object-cover" />
             </div>

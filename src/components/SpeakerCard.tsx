@@ -2,7 +2,7 @@ import { Speaker } from "@/data/types";
 
 export const SpeakerCard: React.FC<Speaker> = ({ name, description,image,title }) => {
     return (
-        <div className="relative group overflow-hidden rounded-lg shadow-lg">
+        <div className="relative mx-auto group overflow-hidden rounded-lg shadow-lg">
             <img
                 src={image}
                 alt={name}

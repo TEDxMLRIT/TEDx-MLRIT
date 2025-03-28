@@ -14,7 +14,7 @@ export default function SpeakersPage() {
                         </a>
                     </div>
                     <div className="overflow-x-auto relative">
-                        <div id="speakersContainer" className="grid grid-cols-2 md:grid-cols-4 gap-4 space-x-6 pb-8 transition-transform duration-300">
+                        <div id="speakersContainer" className="grid grid-cols-1 md:grid-cols-4 gap-4 space-x-6 pb-8 transition-transform duration-300">
                             {speakers.map((speaker, index) => (
                                 <SpeakerCard key={index} {...speaker} />
                             ))}
