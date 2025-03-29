@@ -60,7 +60,7 @@ export const team : MemberProps[] = [
     {
       name: "Praneeth Pothnak",
       title: "Sponsorship & Budget Manager",
-      image: "/TeamPics/Praneeth.JPG",
+      image: "/TeamPics/Praneeth.jpg",
     },
     {
       name: "Harish Badhey",
