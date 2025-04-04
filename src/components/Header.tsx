@@ -29,22 +29,24 @@ export default function Header() {
                             Get Tickets
                         </a>
                     </div>
-                    <DropdownMenu>
-                        <DropdownMenuTrigger><i className="ri-menu-line text-2xl text-white"></i></DropdownMenuTrigger>
-                        <DropdownMenuContent>
-                            <DropdownMenuItem><a href="/">Home</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/#about" className="text-white hover:text-[#E50914] transition-colors">About</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/#past-editions" className="text-white hover:text-[#E50914] transition-colors">Past Editions</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/speakers" className="text-white hover:text-[#E50914] transition-colors">Speakers</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/sponsors" className="text-white hover:text-[#E50914] transition-colors">Sponsors</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/team" className="text-white hover:text-[#E50914] transition-colors">Team</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/#blogs" className="text-white hover:text-[#E50914] transition-colors">Blogs</a></DropdownMenuItem>
-                            <DropdownMenuItem><a href="/register"
-                            className="bg-[#E50914] text-white px-6 py-2 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
-                            Get Tickets
-                        </a></DropdownMenuItem>
-                        </DropdownMenuContent>
-                    </DropdownMenu>
+                    <div className="md:hidden">
+                        <DropdownMenu>
+                            <DropdownMenuTrigger><i className="ri-menu-line text-2xl text-white"></i></DropdownMenuTrigger>
+                            <DropdownMenuContent>
+                                <DropdownMenuItem><a href="/">Home</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/#about" className="text-white hover:text-[#E50914] transition-colors">About</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/#past-editions" className="text-white hover:text-[#E50914] transition-colors">Past Editions</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/speakers" className="text-white hover:text-[#E50914] transition-colors">Speakers</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/sponsors" className="text-white hover:text-[#E50914] transition-colors">Sponsors</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/team" className="text-white hover:text-[#E50914] transition-colors">Team</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/#blogs" className="text-white hover:text-[#E50914] transition-colors">Blogs</a></DropdownMenuItem>
+                                <DropdownMenuItem><a href="/register"
+                                className="bg-[#E50914] text-white px-6 py-2 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
+                                Get Tickets
+                            </a></DropdownMenuItem>
+                            </DropdownMenuContent>
+                        </DropdownMenu>
+                    </div>
 
                     {/* <button className="md:hidden w-10 h-10 flex items-center justify-center">
                         <i className="ri-menu-line text-2xl text-white"></i>

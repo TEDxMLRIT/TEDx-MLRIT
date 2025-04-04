@@ -24,6 +24,7 @@ export function RegisterForm({
   })
   const [college, setCollege] = useState("");
   const [collegeName, setCollegeName] = useState("");
+  const [file, setFile] = useState<any>();
   const navigate = useNavigate();
 
   const onSubmit = async () => {
@@ -34,6 +35,10 @@ export function RegisterForm({
         formData.college = "MLRIT";
       else
         formData.college = collegeName;
+      const { error: fileError } = await supabase.storage.from('bucket_name').upload('file_path', file)
+      if (fileError) {
+        // Handle error
+      }
       const { error } = await supabase
       .from('registrations')
       .insert(formData)
@@ -54,10 +59,16 @@ export function RegisterForm({
     setData({...data,[e.target.name]:e.target.value});
   }
 
+  const onFileUpload = (e : React.ChangeEvent<HTMLInputElement>) => {
+    if(e.target.files){
+      setFile(e.target.files[0]);
+    }
+  }
+
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card className="overflow-hidden">
-        <CardContent className="grid p-0 md:grid-cols-2">
+        <CardContent className="grid p-0 grid-cols-1 md:grid-cols-2">
           <div className="p-6 md:p-8">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col items-center text-center">
@@ -162,6 +173,19 @@ export function RegisterForm({
                   />
                 </div>
               </>}
+              <div className="grid gap-2">
+                <Label htmlFor="phone">Payment Screenshot</Label>
+                <Input
+                  name="screenshot"
+                  type="file"
+                  required
+                  onChange={onFileUpload}
+                />
+              </div>
+              <a href="/QR.jpeg" download={true}
+                className="bg-amber-100 md:hidden text-black px-8 py-3 rounded-2xl text-center  hover:bg-[#E50914]/90 transition-colors text-lg whitespace-nowrap mt-4">
+                Click here to download QR
+              </a>
               <button onClick={() => onSubmit()} type="button"
                 className="bg-[#E50914] text-white px-8 py-3 rounded-2xl text-center  hover:bg-[#E50914]/90 transition-colors text-lg whitespace-nowrap mt-4">
                 Register Now
@@ -171,7 +195,7 @@ export function RegisterForm({
           </div>
           <div className="relative hidden md:block">
             <img
-              src="https://public.readdy.ai/ai/img_res/845b6a06d103e787ab65037b0342dc95.jpg"
+              src="/QR.jpeg"
               alt="Image"
               className="absolute inset-0 h-full w-full object-cover"
             />
