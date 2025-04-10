@@ -5,12 +5,12 @@ export const team : MemberProps[] = [
      {
     name: "Harsha Vincent",
     title: "Faculty Coordinator",
-    image: "/TeamPics/HARSHA.JPG",
+    image: "/TeamPics/HARSHA.jpg",
   },
   {
     name: "Abdullah Nouman",
     title: "Faculty Coordinator",
-    image: "/TeamPics/Ab.JPG",
+    image: "/TeamPics/Ab.jpg",
   },
     {
       name: "Shreeya Pawar",
