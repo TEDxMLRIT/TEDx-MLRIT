@@ -2,6 +2,16 @@ import { MemberProps } from "./types";
 
 // data.ts
 export const team : MemberProps[] = [
+     {
+    name: "Harsha Vincent",
+    title: "Faculty Coordinator",
+    image: "/TeamPics/HARSHA.JPG",
+  },
+  {
+    name: "Abdullah Nouman",
+    title: "Faculty Coordinator",
+    image: "/TeamPics/Ab.JPG",
+  },
     {
       name: "Shreeya Pawar",
       title: "Organiser",
