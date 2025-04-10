@@ -24,7 +24,7 @@ export default function Header() {
                         <a href="/team" className="text-white hover:text-[#E50914] transition-colors">Team</a>
                         {/* <a href="#gallery" className="text-white hover:text-[#E50914] transition-colors">Gallery</a> */}
                         <a href="/#blogs" className="text-white hover:text-[#E50914] transition-colors">Blogs</a>
-                        <a href="/register"
+                        <a href="https://unifest.in/fests/55?fest=tedxmlrit"
                             className="bg-[#E50914] text-white px-6 py-2 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
                             Get Tickets
                         </a>
