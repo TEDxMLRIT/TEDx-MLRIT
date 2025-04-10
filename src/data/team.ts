@@ -94,7 +94,7 @@ export const team : MemberProps[] = [
     },
     {
       name: "Akhila",
-      title: "Wedsite Manager",
+      title: "Website Manager",
       image: "/TeamPics/Akhila.JPG",
     },
     {
