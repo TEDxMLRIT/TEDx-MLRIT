@@ -79,7 +79,7 @@ export const team : MemberProps[] = [
     },
     {
       name: "Muzzammil",
-      title: "Video & Production Lead",
+      title: "Video & Production Team",
       image: "/TeamPics/muzzan.JPG",
     },
     {
@@ -144,7 +144,7 @@ export const team : MemberProps[] = [
     },
     {
       name: "Sagar",
-      title: "Video & Production Lead",
+      title: "Video & Production Team",
       image: "/TeamPics/sagar.JPG",
     },
     {
