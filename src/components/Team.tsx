@@ -42,8 +42,8 @@ export default function Team() {
                         containerClass="carousel-container"
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                         itemClass="carousel-item-padding-40-px p-2">
-              {hometeam.map((speaker, index) => (
-                <MemberCard key={index} name={speaker.name} title={speaker.title} image={speaker.image} />
+              {hometeam.sort((x,y) => x.order - y.order).map((speaker, index) => (
+                <MemberCard key={index} order={speaker.order} name={speaker.name} title={speaker.title} image={speaker.image} />
               ))}
             </Carousel>
           </div>

@@ -1,8 +1,8 @@
 import { BlogProps } from "@/data/types";
 
-export const BlogCard: React.FC<BlogProps> = ({ title, category, date, image }) => {
+export const BlogCard: React.FC<BlogProps> = ({ title, category, date, image, url }) => {
     return (
-      <div className="bg-black border border-white/10 rounded-lg overflow-hidden group hover:border-[#E50914]/50 transition-colors">
+      <a href={url} className="bg-black border border-white/10 rounded-lg overflow-hidden group hover:border-[#E50914]/50 transition-colors">
         <div className="relative h-48 overflow-hidden">
           <img
             src={image}
@@ -21,6 +21,6 @@ export const BlogCard: React.FC<BlogProps> = ({ title, category, date, image }) 
             <span className="text-gray-400">{date}</span>
           </div>
         </div>
-      </div>
+      </a>
     );
   };

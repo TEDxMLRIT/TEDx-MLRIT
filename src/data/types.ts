@@ -7,6 +7,7 @@ export interface Speaker {
 }
 
 export interface MemberProps {
+  order: number;
   name: string;
   title: string;
   image: string;
@@ -17,6 +18,7 @@ export interface BlogProps {
   category: string;
   date: string;
   image: string;
+  url?: string;
 }
 
 export interface Sponsor {

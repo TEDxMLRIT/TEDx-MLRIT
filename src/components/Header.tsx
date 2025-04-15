@@ -40,7 +40,7 @@ export default function Header() {
                                 <DropdownMenuItem><a href="/sponsors" className="text-white hover:text-[#E50914] transition-colors">Sponsors</a></DropdownMenuItem>
                                 <DropdownMenuItem><a href="/team" className="text-white hover:text-[#E50914] transition-colors">Team</a></DropdownMenuItem>
                                 <DropdownMenuItem><a href="/#blogs" className="text-white hover:text-[#E50914] transition-colors">Blogs</a></DropdownMenuItem>
-                                <DropdownMenuItem><a href="/register"
+                                <DropdownMenuItem><a href="https://unifest.in/fests/55?fest=tedxmlrit"
                                 className="bg-[#E50914] text-white px-6 py-2 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
                                 Get Tickets
                             </a></DropdownMenuItem>

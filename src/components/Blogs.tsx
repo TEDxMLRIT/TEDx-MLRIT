@@ -19,12 +19,12 @@ export default function Blogs() {
             ))}
           </div>
         </div>
-        <div className="text-center mb-20">
+        {/* <div className="text-center mb-20">
           <button
             className="bg-[#E50914] text-white px-8 py-3 !rounded-button hover:bg-[#E50914]/90 transition-colors whitespace-nowrap">
             View All Blogs
           </button>
-        </div>
+        </div> */}
       </section>
     </>
   )
