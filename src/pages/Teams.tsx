@@ -26,21 +26,13 @@ export default function TeamsPage() {
                     {Object.keys(data).map(x => <>
                         <h4 className='text-2xl font-bold text-center mb-6 text-white'>{x}</h4>
                         <div className="overflow-x-auto relative">
-                            <div id="speakersContainer" className="grid grid-cols-2 md:grid-cols-4 space-x-6 pb-8 transition-transform duration-300">
+                        <div className="grid grid-cols-1 md:grid md:grid-cols-4 space-x-6 pb-8 transition-transform duration-300">
                                 {data[x].map((speaker, index) => (
                                     <MemberCard key={index} order={speaker.order} name={speaker.name} title={speaker.title} image={speaker.image} />
                                 ))}
                             </div>
                         </div>
                     </>)}
-                    <h4 className='text-2xl text-center mb-6 text-white'></h4>
-                    <div className="overflow-x-auto relative">
-                        <div className="grid grid-cols-1 md:grid md:grid-cols-4 space-x-6 pb-8 transition-transform duration-300">
-                            {team.sort((x,y) => x.order - y.order).map((speaker, index) => (
-                                <MemberCard key={index} order={speaker.order} name={speaker.name} title={speaker.title} image={speaker.image} />
-                            ))}
-                        </div>
-                    </div>
                 </div>
             </section>
         </>
