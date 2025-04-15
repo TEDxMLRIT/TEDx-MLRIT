@@ -15,6 +15,7 @@ export default function Blogs() {
                 category={post.category}
                 date={post.date}
                 image={post.image}
+                url={post.url}
               />
             ))}
           </div>
