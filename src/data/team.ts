@@ -54,7 +54,7 @@ export const team: MemberProps[] = [
     order:5,
     name: "Durga",
     title: "Video and Production Lead",
-    image: "TeamPics/DURGA PRASAD.JPG",
+    image: "TeamPics/D.JPG",
   },
   {
     order:5,
