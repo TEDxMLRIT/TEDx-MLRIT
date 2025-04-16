@@ -400,7 +400,7 @@ export const hometeam: MemberProps[] = [
     order:1,
     name: "Durga",
     title: "Video and Production Lead",
-    image: "/TeamPics/durga.JPG",
+    image: "/TeamPics/D.JPG",
   },
   {
     order:1,
