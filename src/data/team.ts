@@ -18,7 +18,7 @@ export const team: MemberProps[] = [
     order:1,
     name: "Shreeya Pawar",
     title: "Licensee",
-    image: "/TeamPics/Shreeya.JPG",
+    image: "/TeamPics/SHREEYA.JPG",
   },
   {
     order:1,
