@@ -17,13 +17,13 @@ export const team: MemberProps[] = [
   {
     order:1,
     name: "Shreeya Pawar",
-    title: "Organiser",
+    title: "Licensee",
     image: "/TeamPics/Shreeya.JPG",
   },
   {
     order:1,
     name: "Mohd Raza",
-    title: "Co-Organiser",
+    title: "Co-Licensee",
     image: "/TeamPics/Raza.JPG",
   },
   {
@@ -131,7 +131,7 @@ export const team: MemberProps[] = [
   {
     order:1,
     name: "Venkat",
-    title: "Video & Production Lead",
+    title: "Video & Production Team",
     image: "/TeamPics/Venkat.jpg",
   },
   {
