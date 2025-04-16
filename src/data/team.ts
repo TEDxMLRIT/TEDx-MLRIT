@@ -6,13 +6,13 @@ export const team: MemberProps[] = [
     order:1,
     name: "Harsha Vincent",
     title: "Faculty Coordinator",
-    image: "/TeamPics/HARSHA.jpg",
+    image: "/TeamPics/HARSHA V.jpg",
   },
   {
     order:1,
     name: "Abdullah Nouman",
     title: "Faculty Coordinator",
-    image: "/TeamPics/Ab.jpg",
+    image: "/TeamPics/NOUMAN.jpg",
   },
   {
     order:1,
@@ -54,7 +54,7 @@ export const team: MemberProps[] = [
     order:5,
     name: "Durga",
     title: "Video and Production Lead",
-    image: "TeamPics/durga.JPG",
+    image: "TeamPics/DURGA PRASAD.JPG",
   },
   {
     order:5,
