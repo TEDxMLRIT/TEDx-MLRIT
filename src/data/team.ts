@@ -45,7 +45,7 @@ export const team: MemberProps[] = [
     image: "/TeamPics/Vinay.JPG",
   },
   {
-    order:1,
+    order:3,
     name: "Vishruth",
     title: "Sponsorship and Budget Manager Lead",
     image: "/TeamPics/Vishruth.jpg",
@@ -81,7 +81,7 @@ export const team: MemberProps[] = [
     image: "/TeamPics/Haneesh.JPG",
   },
   {
-    order:1,
+    order:3,
     name: "Praneeth Pothnak",
     title: "Sponsorship & Budget Manager",
     image: "/TeamPics/Praneeth.jpg",
@@ -135,7 +135,7 @@ export const team: MemberProps[] = [
     image: "/TeamPics/Venkat.jpg",
   },
   {
-    order:1,
+    order:3,
     name: "Rohan",
     title: "Sponsorship & Budget Manager",
     image: "/TeamPics/Rohan.JPG",
