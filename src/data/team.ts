@@ -45,19 +45,19 @@ export const team: MemberProps[] = [
     image: "/TeamPics/Vinay.JPG",
   },
   {
-    order:2,
+    order:1,
     name: "Vishruth",
     title: "Sponsorship and Budget Manager Lead",
     image: "/TeamPics/Vishruth.jpg",
   },
   {
-    order:3,
+    order:1,
     name: "Durga",
     title: "Video and Production Lead",
     image: "/TeamPics/DUR.jpg",
   },
   {
-    order:3,
+    order:1,
     name: "Akhil",
     title: "Video and Production Lead",
     image: "TeamPics/AkhilN.jpg",
@@ -81,7 +81,7 @@ export const team: MemberProps[] = [
     image: "/TeamPics/Haneesh.JPG",
   },
   {
-    order:2,
+    order:1,
     name: "Praneeth Pothnak",
     title: "Sponsorship & Budget Manager",
     image: "/TeamPics/Praneeth.jpg",
@@ -93,7 +93,7 @@ export const team: MemberProps[] = [
     image: "TeamPics/Harish.JPG",
   },
   {
-    order:3,
+    order:1,
     name: "Muzzammil",
     title: "Video & Production Team",
     image: "/TeamPics/muzzan.JPG",
@@ -129,13 +129,13 @@ export const team: MemberProps[] = [
     image: "/TeamPics/lasya.JPG",
   },
   {
-    order:3,
+    order:1,
     name: "Venkat",
     title: "Video & Production Team",
     image: "/TeamPics/Venkat.jpg",
   },
   {
-    order:2,
+    order:1,
     name: "Rohan",
     title: "Sponsorship & Budget Manager",
     image: "/TeamPics/Rohan.JPG",
@@ -171,7 +171,7 @@ export const team: MemberProps[] = [
     image: "/TeamPics/shreya.JPG",
   },
   {
-    order:3,
+    order:1,
     name: "Sagar",
     title: "Video & Production Team",
     image: "/TeamPics/sagar.JPG",
