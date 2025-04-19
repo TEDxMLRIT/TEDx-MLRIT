@@ -24,7 +24,7 @@ export const speakers: Speaker[] = [
     name: "Sahadeva Sakha Dasa",
     title: "Director of the Aikya Vidya",
     description: "“A guide of insight, a voice of purpose.”With every word, he  weaves wisdom that uplifts the spirit and sparks the mind.",
-    image: "/Sponsors/uuu.svg"
+    image: "/Sponsors/sa.webp"
   },
   {
     name: "Vatsav Dakappagari",
