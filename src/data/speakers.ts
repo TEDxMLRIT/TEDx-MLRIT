@@ -10,8 +10,8 @@ Kavya Kalyanram is a powerhouse redefining versatility.",
     image: "/Sponsors/kavya.jpg"
   },
   {
-    name: "XXX",
-    title: "XXX",
+    name: "Naman Vankdari",
+    title: "Advocate,High Court of Karnataka",
     description: "XXX.",
     image: "/Sponsors/uuu.svg"
   },
