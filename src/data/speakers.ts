@@ -5,37 +5,37 @@ export const speakers: Speaker[] = [
   {
     name: "Kavya Kalyanram",
     title: "Lawyer,Actor and Entrepreneur",
-    description: "“A woman of many talents and one inspiring journey.” Kavya Kalyanram is a powerhouse redefining versatility.",
+    description: "“A woman of many talents and one inspiring journey.”Kavya Kalyanram is a powerhouse redefining versatility.",
     image: "/Sponsors/uuu.svg"
   },
   {
     name: "Naman Vankdari",
     title: "Advocate,High Court of Karnataka",
-    description: "“A mind that challenges norms and a voice that sparks change.” From bold questions to brave ideas, Naman doesn’t just think different — he makes different possible.",
+    description: "“A mind that challenges norms and a voice that sparks change.”From bold questions to brave ideas, Naman doesn’t just think different — he makes different possible.",
+    image: "/Sponsors/na.jpg"
+  },
+  {
+   name: "Bijay Nair",
+    title: "Lt Cdr(Retd)",
+    description: "“A soldier of strength, a storyteller of soul.”From the frontlines to the front row, Bijay carries lessons that move hearts and minds.",
     image: "/Sponsors/uuu.svg"
   },
   {
-   name: "XXX",
-    title: "XXX",
-    description: "XXX.",
+    name: "Sahadeva Sakha Dasa",
+    title: "Director of the Aikya Vidya",
+    description: "“A guide of insight, a voice of purpose.”With every word, he  weaves wisdom that uplifts the spirit and sparks the mind.",
     image: "/Sponsors/uuu.svg"
   },
   {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
+    name: "Vatsav Dakappagari",
+    title: "Social Media Influencer",
+    description: "“A voice of tradition, a heart full of stories.”Through Vatsav’s stories, the everyday becomes extraordinary, and the ordinary is made unforgettable.",
     image: "/Sponsors/uuu.svg"
   },
   {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
-    image: "/Sponsors/uuu.svg"
-  },
-  {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
+    name: "Ranjith Chanti",
+    title: "International Cyclist",
+    description: "“Every pedal stroke is a step closer to a new world.”Every mile tells a story—Ranjith Chanti cycles beyond borders, bridging worlds.",
     image: "/Sponsors/uuu.svg"
   },
   {
