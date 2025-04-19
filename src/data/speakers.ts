@@ -6,7 +6,7 @@ export const speakers: Speaker[] = [
     name: "Kavya Kalyanram",
     title: "Lawyer,Actor and Entrepreneur",
     description: "“A woman of many talents and one inspiring journey.”Kavya Kalyanram is a powerhouse redefining versatility.",
-    image: "/Sponsors/uuu.svg"
+    image: "/Sponsors/ka.jpg"
   },
   {
     name: "Naman Vankdari",
@@ -18,7 +18,7 @@ export const speakers: Speaker[] = [
    name: "Bijay Nair",
     title: "Lt Cdr(Retd)",
     description: "“A soldier of strength, a storyteller of soul.”From the frontlines to the front row, Bijay carries lessons that move hearts and minds.",
-    image: "/Sponsors/uuu.svg"
+    image: "/Sponsors/bi.jpg"
   },
   {
     name: "Sahadeva Sakha Dasa",
@@ -30,13 +30,13 @@ export const speakers: Speaker[] = [
     name: "Vatsav Dakappagari",
     title: "Social Media Influencer",
     description: "“A voice of tradition, a heart full of stories.”Through Vatsav’s stories, the everyday becomes extraordinary, and the ordinary is made unforgettable.",
-    image: "/Sponsors/uuu.svg"
+    image: "/Sponsors/va.webp"
   },
   {
     name: "Ranjith Chanti",
     title: "International Cyclist",
     description: "“Every pedal stroke is a step closer to a new world.”Every mile tells a story—Ranjith Chanti cycles beyond borders, bridging worlds.",
-    image: "/Sponsors/uuu.svg"
+    image: "/Sponsors/ra.jpg"
   },
   {
     name: "XXX",
