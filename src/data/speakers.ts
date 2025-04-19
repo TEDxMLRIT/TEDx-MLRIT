@@ -6,7 +6,7 @@ export const speakers: Speaker[] = [
     name: "Kavya Kalyanram",
     title: "Lawyer,Actor and Entrepreneur",
     description: "“A woman of many talents and one inspiring journey.” Kavya Kalyanram is a powerhouse redefining versatility.",
-    image: "/Sponsors/kavya.jpg"
+    image: "/Sponsors/kav.png"
   },
   {
     name: "Naman Vankdari",
