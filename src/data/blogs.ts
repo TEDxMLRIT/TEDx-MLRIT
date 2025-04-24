@@ -20,7 +20,7 @@ export const blogPosts = [
       title: "Lost in the Rush: Are Your Values Your Compass?",
       category: "philosophy",
       date: "March 26, 2024",
-      image: "https://public.readdy.ai/ai/img_res/bc976f6af2c706d9fa8b4826a95b2e5e.jpg",
+      image: "/Sponsors/lost.jpg",
       url:"https://moizwrite.medium.com/lost-in-the-rush-are-your-values-your-compass-b9005e481b22"
     },
   ];
