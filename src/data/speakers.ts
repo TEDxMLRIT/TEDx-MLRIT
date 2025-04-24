@@ -49,5 +49,11 @@ export const speakers: Speaker[] = [
     title: "XXX",
     description: "XXX.",
     image: "/Sponsors/uuu.svg"
+  },
+   {
+    name: "XXX",
+    title: "XXX",
+    description: "XXX.",
+    image: "/Sponsors/uuu.svg"
   }
 ];
