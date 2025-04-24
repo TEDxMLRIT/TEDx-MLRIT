@@ -6,7 +6,7 @@ export const blogPosts = [
       title: "The Echoes of Tomorrow: Because Ideas Don't Die—They Resonate",
       category: "Inspiration",
       date: "March 1, 2025",
-      image: "e.jpg",
+      image: "ec.jpg",
       url:"https://medium.com/@tedxmlrit/the-echoes-of-tomorrow-because-ideas-dont-die-they-resonate-7e72757ce691"
     },
     {
