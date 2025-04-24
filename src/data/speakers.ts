@@ -39,21 +39,21 @@ export const speakers: Speaker[] = [
     image: "/Sponsors/ra.jpg"
   },
   {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
-    image: "/Sponsors/uuu.svg"
+    name: "Chandrasekhar Nadiminti",
+    title: "Entrepreneur and Innovator",
+    description: "“Innovation is the bridge between curiosity and change.”Chandrashekhar Nadiminti is redefining what's possible, creating simple yet groundbreaking solutions for a sustainable tomorrow.",
+    image: "/Sponsors/cs.jpg"
   },
   {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
-    image: "/Sponsors/uuu.svg"
+    name: "Charan Peri",
+    title: "Actor and Influencer",
+    description: "“A man of quiet charisma and compelling craft.”Charan Peri is a cinematic craftsman shaping stillness into unforgettable impact.",
+    image: "/Sponsors/c.jpg"
   },
    {
-    name: "XXX",
-    title: "XXX",
-    description: "XXX.",
-    image: "/Sponsors/uuu.svg"
+    name: "Niharika Sood",
+    title: "Engineer,Model and Miss Universe Telangana",
+    description: " Grace in every glance, strength in every step — she moves with effortless elegance.“Niharika Sood — from poise to power, she redefines what it means to shine.”",
+    image: "/Sponsors/ni.jpg"
   }
 ];
