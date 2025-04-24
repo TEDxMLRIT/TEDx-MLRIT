@@ -53,7 +53,7 @@ export const speakers: Speaker[] = [
    {
     name: "Niharika Sood",
     title: "Engineer,Model and Miss Universe Telangana",
-    description: " Grace in every glance, strength in every step — she moves with effortless elegance.“Niharika Sood — from poise to power, she redefines what it means to shine.”",
+    description: " Grace in every glance, strength in every step —she moves with effortless elegance.“Niharika Sood —from poise to power, she redefines what it means to shine.”",
     image: "/Sponsors/ni.jpg"
   }
 ];
